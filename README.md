@@ -3,7 +3,7 @@
 ## Installation
 ### Install via Composer
 ```
-composer require bulbakh/telenorma
+composer create-project bulbakh/telenorma
 ```
 
 ## Requirements
