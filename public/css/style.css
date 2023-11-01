@@ -1,0 +1,8 @@
+td {
+    border: 1px grey dotted;
+    padding: 0 21px;
+}
+
+#workerform {
+    display: none;
+}
