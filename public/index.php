@@ -19,6 +19,8 @@ foreach ($positions as $position) {
     $selectPositions[$position['id']] = $position['name'];
 }
 
+echo htmlHelper::table('');
+
 echo HtmlHelper::button('Add', ['id' => 'add']);
 
 echo HtmlHelper::form(HtmlHelper::input('', ['type' => 'hidden', 'name' => 'id', 'id' => 'id'])
@@ -27,5 +29,3 @@ echo HtmlHelper::form(HtmlHelper::input('', ['type' => 'hidden', 'name' => 'id',
     . HtmlHelper::br() . HtmlHelper::select('Position', $selectPositions, ['name' => 'position', 'id' => 'position', 'required' => 'required'])
     . HtmlHelper::br() . HtmlHelper::submit('ОК') . HtmlHelper::button('Cancel', ['id' => 'cancel']),
     ['id' => 'workerform', 'method' => 'post']);
-
-echo htmlHelper::table('');
