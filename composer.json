@@ -1,5 +1,5 @@
 {
-  "name": "bulbakh/telenorma_worker",
+  "name": "bulbakh/telenorma",
   "description": "Implementation of a test task for Telenorma",
   "type": "project",
   "require": {
